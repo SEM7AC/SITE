@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #003B6D;
+    color: white;
+    padding: 1em;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.header-top img {
+    position: absolute;
+    left: 1em;
+    height: 50px;
+}
+
+.header-top h1 {
+    margin: 0;
+    font-size: 1.5em;
+    width: 100%;
+    
+    
+}
+
+.container {
+    display: flex;
+    
+}
+
+nav {
+    background-color: #BDBDBD;
+    max-width: 200px;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 1em 0;
+}
+
+nav ul li a {
+    color: #003B6D;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #6699CC;
+}
+
+main {
+    flex-grow: 1;
+    padding: 1em;
+    background-color: #F8F9FA;
+}
+
+.main-img {
+    width: 100%; 
+    max-width: 600px; 
+    margin: auto; 
+}
+
+.main-img img {
+    width: 100%; 
+    height: auto; 
+     
+}
+
+.main-txt{
+    text-align: center;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.main-txt a {
+    color: blue;
+}
+
+.faq li {
+    text-align: left;
+    padding: 5px;
+}
+
+footer {
+    background-color: #003B6D;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9em;
+}
+
+footer a { 
+    color: white;
+    margin: 0 10px; 
+} 
+
+footer a img { 
+    width: 20px; 
+    height: 20px; 
+}
